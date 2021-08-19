@@ -1,0 +1,95 @@
+
+
+
+.logo {
+    height: 10rem;
+    width: 30%;
+    height: auto;
+    margin-left: 0.1rem;
+    
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.navbar {font-size: 2rem;
+    font-weight: normal;
+    font-family: 'Barlow Condensed', sans-serif;
+    list-style-type: none;
+    text-decoration:none;
+    margin: 1%;
+    padding: 1%;
+
+  
+}
+
+.sections {
+    display: inline-block;
+    position: relative;
+    width: 10%;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem; 
+    border: #e76f51 3px;       
+}
+
+.submenu {
+    list-style: none;
+    position: absolute;
+    display: none;
+    
+}   
+
+.subrayado {
+    text-decoration: none;
+    font-size: 1.875rem;
+    color:rgb(8, 8, 8);
+}
+
+.subsection {
+    display: block;
+}
+
+.navbar .sections:hover .submenu {
+    display: block;
+    text-decoration:none;
+    }
+
+
+
+// .navegador{
+//     font-size: $font-size-peque*1.2;
+//     font-family: $font-type-cuerpo;
+//     font-weight: normal;
+//     list-style-type: none;
+//     text-decoration:none;
+//     color:$color-secundario;
+    
+
+
+//     &__logo{
+//         height: 10rem;
+//         width: 30%;
+//         height: auto;
+//         margin-left: 0.1rem;
+//     }
+//     &__lista{
+//          list-style: none;
+         
+//     }
+//     &__item{
+//         margin:0.4rem;
+     
+       
+//     }
+
+
+// }
