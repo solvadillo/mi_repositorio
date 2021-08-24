@@ -1,0 +1,75 @@
+
+
+
+/* Inicio index */
+
+.seccion{
+   
+    
+    &__frase{font-family: 'Barlow', sans-serif;;
+        font-size: 3.8rem;
+        letter-spacing: 0.094rem;
+         margin-top: 10%;
+        height: auto;
+        transition:all 2s ;
+        color: rgb(61, 61, 61);
+            }
+            
+      &__frase:hover {
+    font-size: 4rem;
+   
+}
+
+
+    &__subfrase{ font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.3rem;
+    color: darkcyan;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+}
+   
+}
+
+
+
+   
+
+
+/* carrusel */
+
+.container-carrusel {
+    width: 55%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+/* fin carrusel */
+
+/* inicio newsletter */
+.newsletter {
+    
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem; 
+    padding: 3rem;
+    color: black;
+
+&__container{
+    margin-top: 5%;
+     display: flex;
+    flex-direction: column; 
+    align-content:center; 
+
+}
+
+
+}
+.boton {
+    color:#138D75 ;
+}
+
+/* fin newsletter */
+
+/* fin index */

@@ -2,7 +2,7 @@
 
 .portfolio{
 
-    
+  
 
     &__paragrafo{
         font-size: $font-size-peque/0.5;
@@ -28,16 +28,30 @@
     flex-wrap: wrap;
     align-content:center;
     margin-top: 6%;
+    margin-left: 5%;
+    background-image: url(./fondoportfolio.jpg);
+
 }
 
 &__hijo{
     height: 25rem;
     width: 25rem;
     margin: 2.5rem;
+    
 }
 }
 
+// .portfolio__padre {
+//     display: flex;
+//     flex-direction: row;
+//     height: 50% ;
+//     width: 100%;
+//     flex-wrap: wrap;
+//     align-content:center;
+//      margin-top: 6%;
+//     margin-left: 5%;
 
+// }
 
 hr {
     opacity: 1;

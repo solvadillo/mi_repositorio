@@ -1,0 +1,80 @@
+.nosotros {
+    &__seccion{ 
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 5%;
+    word-spacing: 0.2rem;
+
+    }
+  
+
+    &__titulo {
+        font-family:'Barlow', sans-serif ;
+        font-size: 3rem;
+        color: rgb(79, 141, 143); ;
+
+    }
+
+    &__frase{
+        font-family:'Barlow Condensed', sans-serif ;
+    font-size: 1.5rem;
+    margin-left: 9%;
+    }
+
+    &__parrafo{
+            font-size: 2rem;
+            font-family:'Barlow Condensed', sans-serif ;
+            color:black;
+            margin:7%;
+
+        }
+
+    &__equipo{
+        font-size: 3rem;
+    margin-left: 40%;
+    height: 20vh;
+    display: grid;
+    grid-template-rows: 1;
+    -ms-grid-row-align: stretch;
+    color: indianred;
+    
+    }
+
+    &__padreequipo{
+        display:flex;
+        flex-wrap: wrap;
+        height: 31.25rem;
+        width: 100%;
+        margin:0.5rem;
+        padding: 1.25rem;
+        align-content:space-around;
+        justify-content: center;
+    }
+
+    &__hijoequipo{
+        height:31.25rem;
+        width: 31.25rem;
+        margin: 0.5rem 1rem 0.3rem 1rem;
+        display: block;
+    }
+    &__letra{
+        font-size: 1.8rem;
+        font-family:'Barlow Condensed', sans-serif ;
+        color: black;  
+    }
+   
+   
+
+    }
+
+     .linea{
+        opacity: 0.30;
+        color:indianred;
+        background-image: none;
+        height: 0.2rem !important;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+

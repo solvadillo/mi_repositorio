@@ -82,10 +82,7 @@ background-image: linear-gradient(97deg, #e45d2b 8%, #F7CE68 47%, #129083 86%);
 }
  /* fin barra de navegación */
 
-
-
-
-
+ 
 /* inicio footer para todas las páginas */
 
 .footer {
@@ -95,7 +92,7 @@ background-image: linear-gradient(97deg, #e45d2b 8%, #F7CE68 47%, #129083 86%);
     color:seashell;
     padding:2rem;
     margin-top:0.7rem;
-    background-image: url(/proyecto-coderhouse/imagenes/estrellas.jpg);
+    background-image: url(../imagenes/estrellas.jpg);
 
 }
 
@@ -281,7 +278,7 @@ inicio sección nosotros */
     margin-left: 9%;
 }
 
-.nosotros {
+.nosotross {
     font-size: 2rem;
     font-family:'Barlow Condensed', sans-serif ;
     color:black;
@@ -347,7 +344,7 @@ inicio sección nosotros */
 /* fin sección nosotros */
 
 /* inicio sección contacto */
-.contacto {
+.contactoo {
     font-size: 3.5rem;
     font-family:'Barlow Condensed', sans-serif ;
     color: indianred;
